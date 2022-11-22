@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Pacifico&family=Righteous&family=Roboto+Condensed:ital,wght@0,400;1,300&family=Ubuntu&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.navbar-brand {
+    font-family: 'Pacifico', cursive;
+    font-size: 15px;
+    color: lightcoral !important;
+}
+
+
+
+.nav-link {
+    font-size: 16px;
+    margin: 15px;
+    color: black;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.nav-link:hover {
+    color: #00E8E8 !important;
+}
+
+.active .nav-link {
+    color: #00E8E8 !important;
+}
+
+.menu-right-btn {
+    padding: 13px 46px;
+    margin-right: 20px;
+    background-color: #00E8E8;
+
+
+}
+
+.menu-right-btn:hover {
+    color: white;
+    background-color: #25acac;
+}
+
+/* end header and navbar */
+
+.site-content {
+    background-image: url("./images/UI\ image-1.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.site-title,.site-description {
+    color: white;
+    font-family: 'Righteous', cursive;
+}
+
+.site-title {
+    margin-top: 30%;
+    font-size: 50px;
+}
+
+.site-description {
+    font-size: 14px;
+}
+
+.site-btn-1 {
+    background-color: black;
+}
+
+.site-btn-2 {
+    background-color: white;
+    color: black;
+}
+
+.site-btn-1 , .site-btn-2 {
+    margin-top: 5%;
+    margin-bottom: 40%;
+}
+
+/* end site and starting of site1 */
+
+.section-1-head {
+    margin-top: 8%;
+}
+
+/* end section-1 */
+
+.section-2 .container-fluid {
+    margin-top: 30px;
+    background-image: url("./images/UI\ image-8.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.heading-2 {
+    color: white;
+    margin-top: 80px;
+    margin-bottom: 15px;
+    font-family: 'Righteous', cursive;
+    font-size: 30px;
+
+}
+
+.para-2 {
+    color: rgb(255, 255, 255);
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 20px;
+    width: 80%;
+    font-size: 20px;
+}
+
+.btn-show {
+    margin-bottom: 80px;
+    width: 20%;
+    padding: 2%;
+}
+
+/* end section-2 */
+
+.section-3 {
+    margin-top: 80px;
+}
+
+.section-3 i {
+    color: #00E8E8;
+}
+
+.section-3 p {
+    opacity: 0.6;
+    width: 80%;
+    margin-top: 20px;
+}
+
+/* end section-3 */
+
+.section-4 {
+    margin-top: 80px;
+}
+
+.section-4 img {
+    margin: 90px auto;
+}
+
+.section-4 h1 {
+    margin-top: 90px;
+}
+
+.section-4 a {
+    color: #3ad6d6;
+    text-decoration: none;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.section-4 p {
+    font-size: large;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* end section-4 */
+
+.email{
+    width: 30%;
+    padding: 10px;
+}
+
+.facebook {
+    color: blue;
+}
+
+.twitter {
+    color: #1DA1F2;
+}
+
+.instagram {
+    color: #F703CE;
+}
+
+.youtube {
+    color: red;
+}
+
+.social i {
+    border-radius: 4px;
+}
+
+.social i:hover {
+    background-color: rgb(194, 218, 218);
+}
+
+.social-media {
+    margin: 90px;
+}
+
+/* end section-5 */
+
+@media screen and (max-width: 768px) {
+    .section-1 .card{
+        width: 14rem;
+        margin: 0 auto;
+    }
+
+    .section-4-container {
+        margin: 0 auto;
+    }
+
+    .section-4 .col-md-7 img{
+        width: 350px;
+        margin: 50px auto;
+        margin-bottom: 30px;
+    }
+
+    .section-4 h1 {
+        margin-top: 50px;
+    }
+
+    .fa-magnifying-glass {
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .site-content .site-title {
+        font-size: 30px;
+        padding-left: 15%;
+    }
+
+    .site-content .site-btn-2 {
+        display: none;
+    }
+
+    .section-1 .card{
+        width: 17rem;
+    }
+
+    .section-1-head p {
+        width: 100%;
+        text-align: left;
+        padding: 0px;
+    }
+
+    .section-1-head .set1-title , .section-1-head .set2-title.{
+        font-size: 25px;
+    }
+
+    footer .last {
+        display: flex;
+    }
+
+    .col-md-7 img {
+        width: 200px;
+        margin: 20px auto;
+    }
+
+    .col-md-5 {
+        padding: 15%;
+    }
+
+
+}
